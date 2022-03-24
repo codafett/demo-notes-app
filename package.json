@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "AWS_PROFILE=rjg sst test",
+    "start": "AWS_PROFILE=rjg sst start",
+    "build": "AWS_PROFILE=rjg sst build",
+    "deploy": "AWS_PROFILE=rjg sst deploy",
+    "remove": "AWS_PROFILE=rjg sst remove"
+  },
+  "eslintConfig": {
+    "extends": [
+      "serverless-stack"
+    ]
+  },
+  "dependencies": {
+    "@serverless-stack/cli": "0.69.2",
+    "@serverless-stack/resources": "0.69.2",
+    "aws-cdk-lib": "2.15.0"
+  }
+}
