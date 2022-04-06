@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "test": "AWS_PROFILE=rjg sst test",
+    "test": "AWS_PROFILE=rjg sst test --testPathIgnorePatterns=/frontend/",
     "start": "AWS_PROFILE=rjg sst start",
     "build": "AWS_PROFILE=rjg sst build",
     "deploy": "AWS_PROFILE=rjg sst deploy",
