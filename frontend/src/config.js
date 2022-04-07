@@ -17,6 +17,7 @@ const config = {
   // UI config
   MAX_ATTACHMENT_SIZE: 5000000,
   STRIPE_KEY: "pk_test_51KidGAB6eVgwwAOzRqxNcnmfSsGqAfnyrGmZOYZrXRTJs34LFBPdbic2ANWSwLTUuyARk8CRRvdKQdnsgXnLLDOL00ySlzUkwd",
+  SENTRY_DSN: "https://fe723e3c0c1d4e0db50b239dd06e851b@o1193069.ingest.sentry.io/6315229",
 };
 
 export default config;
